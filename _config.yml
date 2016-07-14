@@ -1,6 +1,12 @@
 # Site settings
 title: AUV-IITK
+email: iitkauv@gmail.com
+copyright_name: AUV-IITK
+github_username: AUV-IITK
 collections:
   - subteam
   - competition
   - research
+
+# gem dependencies
+gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
