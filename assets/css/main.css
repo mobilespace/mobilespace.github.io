@@ -3056,7 +3056,8 @@ table.alt tbody tr td {
     -ms-transition-delay: 0s;
     transition-delay: 0s;
     display: block;
-    margin: 1em 0 1.5em 0;
+    margin: 0 0 1.5em 0;
+    padding-top: 1em;
 }
 
 #header.alt .logo img {
