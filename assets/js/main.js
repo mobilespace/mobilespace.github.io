@@ -168,3 +168,12 @@ jQuery(document).ready(function($) {
             });
     }
 });
+
+// typing animation
+$(function() {
+    $(".typed").typed({
+        strings: ["A Platform For Reseach in Under Water Robotics !"],
+        startDelay: 1000,
+        typeSpeed: 10
+    });
+});

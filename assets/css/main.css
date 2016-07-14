@@ -1626,7 +1626,7 @@ i {
 }
 
 p {
-    margin: 0 0 2em 0;
+    margin: 0 0 0 0;
 }
 
 p.content {
@@ -2623,8 +2623,10 @@ article.special header.major h2:after {
     margin-right: auto;
 }
 
-header.major p {
+header.major p,
+.typedheader {
     font-size: 1.25em;
+    font-weight: bold;
     letter-spacing: -0.025em;
 }
 
@@ -3054,7 +3056,7 @@ table.alt tbody tr td {
     -ms-transition-delay: 0s;
     transition-delay: 0s;
     display: block;
-    margin: 0 0 1.5em 0;
+    margin: 1em 0 1.5em 0;
 }
 
 #header.alt .logo img {
@@ -3130,9 +3132,9 @@ body.is-loading #header.alt .logo {
 }
 
 /* Nav */
-.navbar-custom{background:white;margin-top:-2px;position:absolute;top:0;left:0;width:100%;z-index:3;}
+.navbar-custom{background:white;position:absolute;top:0;left:0;width:100%;z-index:3;}
 .navbar-custom .navbar-brand{font-weight:800;}
-.navbar-custom .nav li a{text-transform:uppercase;font-size:14px;font-weight:800;letter-spacing:1px;}
+.navbar-custom .nav li a{text-transform:uppercase;font-size:18px;font-weight:800;letter-spacing:1px;}
 @media only screen and (min-width:768px){.navbar-custom{background:transparent;border-bottom:1px solid transparent;}
 .navbar-custom .navbar-brand{color:white;padding:20px;}
 .navbar-custom .navbar-brand:hover,
@@ -3575,4 +3577,28 @@ body.is-loading #header.alt .logo {
     #wrapper {
         max-width: 100%;
     }
+}
+
+/* typing */
+.typed-cursor{
+    opacity: 1;
+    font-size: 1.27em;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
