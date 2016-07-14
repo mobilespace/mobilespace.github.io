@@ -3,102 +3,74 @@ layout: default
 ---
         <!-- Header -->
         <header id="header" class="alt">
-            <span class="logo"><img src="images/logo.svg" alt="" /></span>
-            <span class="typedheader typed"></span>
+            <span class="logo"><img src="images/logo.svg" alt="auv-iitk" /></span>
+            <span class="typedheader typed"></span> <!-- filled by main.js using typed.js -->
         </header>
-        <!-- Main -->
         <div id="main">
-            <!-- Introduction -->
             <section id="intro" class="main">
                 <div class="spotlight">
                     <div class="content">
                         <header class="major">
-                            <h2>Ipsum sed adipiscing</h2>
+                            <h2>Who we are ?</h2>
                         </header>
-                        <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn More</a></li>
-                        </ul>
+                        <p>We are a bunch of overly optimistic, hardworking students working towards creating I.I.T. Kanpur's first Autonomous Under Water Vehicle. The current team consists of 15 students spanning various branches of engineering like Mechanical, Electrical, Computer Science, Physics, Material Science and Chemical at Indian Institute of Technology Kanpur.<br>Our mission is to participate in AUV competitions like NIOT SAVe, Robosub. The competition is a platform for students to display their skills in underwater robotics and build a connection with industries working along similar verticals. <br>Our vision is to lower the entry barier for research in underwater robotics. For this we have designed <i>Varun</i> such that any of its mechanical, electrical or software component can be individually improved and tested. Thus enabling researchers to focus on there field of research and using other pre-baked components.</p>
                     </div>
-                    <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                    <span class="image"><img src="images/auv-underwater.jpg" alt="varun" /></span>
                 </div>
             </section>
-            <!-- First Section -->
-            <section id="first" class="main special">
+            <section id="subteams" class="main special">
                 <header class="major">
-                    <h2>Magna veroeros</h2>
+                    <h2>Sub Teams</h2>
                 </header>
                 <ul class="features">
+                    {% for item in site.subteam %}
                     <li>
-                        <span class="icon major style1 fa-code"></span>
-                        <h3>Ipsum consequat</h3>
-                        <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                        <span class="icon major {{ item.iconstyle }} {{ item.icon }}"></span>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
                     </li>
-                    <li>
-                        <span class="icon major style3 fa-copy"></span>
-                        <h3>Amed sed feugiat</h3>
-                        <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                    </li>
-                    <li>
-                        <span class="icon major style5 fa-diamond"></span>
-                        <h3>Dolor nullam</h3>
-                        <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                    </li>
+                    {% endfor %}
                 </ul>
-                <footer class="major">
-                    <ul class="actions">
-                        <li><a href="generic.html" class="button">Learn More</a></li>
-                    </ul>
-                </footer>
             </section>
-            <!-- Second Section -->
             <section id="second" class="main special">
                 <header class="major">
-                    <h2>Ipsum consequat</h2>
-                    <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                        <br /> posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                    <h2>Recent Milestones</h2>
                 </header>
-                <ul class="statistics">
-                    <li class="style1">
-                        <span class="icon fa-code-fork"></span>
-                        <strong>5,120</strong> Etiam
-                    </li>
-                    <li class="style2">
-                        <span class="icon fa-folder-open-o"></span>
-                        <strong>8,192</strong> Magna
-                    </li>
-                    <li class="style3">
-                        <span class="icon fa-signal"></span>
-                        <strong>2,048</strong> Tempus
-                    </li>
-                    <li class="style4">
-                        <span class="icon fa-laptop"></span>
-                        <strong>4,096</strong> Aliquam
-                    </li>
-                    <li class="style5">
-                        <span class="icon fa-diamond"></span>
-                        <strong>1,024</strong> Nullam
-                    </li>
-                </ul>
-                <p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-                <footer class="major">
-                    <ul class="actions">
-                        <li><a href="generic.html" class="button">Learn More</a></li>
-                    </ul>
-                </footer>
+                {% for post in site.tags["milestone"] %}
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                <h3>
+                {{ post.title }}
+                </h3>
+                </a>
+                </div>
+                {% endfor %}
             </section>
-            <!-- Get Started -->
-            <section id="cta" class="main special">
+            <section id="third" class="main special">
                 <header class="major">
-                    <h2>Congue imperdiet</h2>
-                    <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                        <br /> posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                    <h2>AUV Competitions</h2>
                 </header>
-                <footer class="major">
-                    <ul class="actions">
-                        <li><a href="generic.html" class="button special">Get Started</a></li>
-                        <li><a href="generic.html" class="button">Learn More</a></li>
-                    </ul>
-                </footer>
+                    {% for item in site.competition %}
+                    <p style="clear: both;">
+                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
+                    <h3> {{ item.title }} </h3>
+                    {{ item.description }}
+                    <a href="{{ item.link }}"><i>Read more...</i></a>
+                    </p>
+                    <br>
+                    {% endfor %}
+            </section>
+            <section id="fourth" class="main special">
+                <header class="major">
+                    <h2>Research Collaborations</h2>
+                </header>
+                    {% for item in site.research %}
+                    <p style="clear: both;">
+                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
+                    <h3> {{ item.title }} </h3>
+                    {{ item.description }}
+                    <a href="{{ item.link }}"><i>Read more...</i></a>
+                    </p>
+                    <br>
+                    {% endfor %}
             </section>
         </div>
