@@ -3,10 +3,14 @@ title: AUV-IITK
 email: iitkauv@gmail.com
 copyright_name: AUV-IITK
 github_username: AUV-IITK
-collections:
-  - subteam
-  - competition
-  - research
 
+collections:
+  vehicles :
+    output: true
+  subteam :
+  competition :
+  research :
+
+port: 4444
 # gem dependencies
 gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
