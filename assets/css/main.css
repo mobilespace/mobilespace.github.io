@@ -3133,7 +3133,7 @@ body.is-loading #header.alt .logo {
 /* Nav */
 .navbar-custom{background:white;position:absolute;top:0;left:0;width:100%;z-index:3;}
 .navbar-custom .navbar-brand{font-weight:800;}
-.navbar-custom .nav li a{text-transform:uppercase;font-size:18px;font-weight:800;letter-spacing:1px;}
+.navbar-custom .nav li a{text-transform:uppercase;font-size:18px;font-weight:800;}
 @media only screen and (min-width:768px){.navbar-custom{background:transparent;border-bottom:1px solid transparent;}
 .navbar-custom .navbar-brand{color:white;padding:20px;}
 .navbar-custom .navbar-brand:hover,
