@@ -6,8 +6,9 @@ title: Vehicles
         <header id="header">
         </header>
         <div id="main">
-            {% for vehicle in site.vehicles %}
             <section class="main">
+            {% assign sorted = (site.vehicles | sort: 'date') | reverse %}
+            {% for vehicle in sorted %}
                 <div class="spotlight">
                     <div class="content">
                         <header class="major">
@@ -21,6 +22,6 @@ title: Vehicles
                     </div>
                     <span class="image"><img src="{{ vehicle.image }}" alt="{{ vehicle.name }}" /></span>
                 </div>
-            </section>
             {% endfor %}
+            </section>
         </div>
