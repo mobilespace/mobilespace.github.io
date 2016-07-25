@@ -5,21 +5,19 @@ layout: default
         <header id="header">
         </header>
         <div id="main">
-            {% for vehicle in site.vehicles %}
             <section class="main">
                 <div class="spotlight">
                     <div class="content">
                         <header class="major">
-                            <h2>{{ vehicle.name }}</h2>
+                            <h2>{{ page.name }}</h2>
                         </header>
-                        <p>{{ vehicle.description }}</p>
+                        <p>{{ page.description }}</p>
                         <br>
                         <ul class="actions">
-                            <li><a href="{{ vehicle.link }}" class="button">Learn More</a></li>
+                            <li><a href="{{ page.link }}" class="button">Learn More</a></li>
                         </ul>
                     </div>
-                    <span class="image"><img src="{{ vehicle.image }}" alt="{{ vehicle.name }}" /></span>
+                    <span class="image"><img src="{{ page.image }}" alt="{{ page.name }}" /></span>
                 </div>
             </section>
-            {% endfor %}
         </div>
