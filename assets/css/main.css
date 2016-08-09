@@ -1537,10 +1537,10 @@ body {
 
 body {
     background-color: #935d8c;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #6F5E9D 15%, #5f4d93 85%);
 }
 
 body.is-loading *,
@@ -3467,12 +3467,13 @@ body.is-loading #header.alt .logo {
     #main > .main > .image.main:first-child {
         margin: -3em 0 1.5em -1.5em;
         width: calc(100% + 3em);
+        height: calc(100% + 3em);
     }
 }
 
 @media screen and (max-width: 360px) {
     #main {
-        border-radius: 0;
+            border-radius: 0;
     }
     #main > .main {
         padding: 2.5em 1em 0.5em 1em;
@@ -3480,6 +3481,7 @@ body.is-loading #header.alt .logo {
     #main > .main > .image.main:first-child {
         margin: -2.5em 0 1.5em -1em;
         width: calc(100% + 2em);
+        height: calc(100% + 3em);
         border-radius: 0;
     }
     #main > .main > .image.main:first-child img {
