@@ -15,7 +15,7 @@ layout: default
                     <h4 style="color: white;">
                     Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
                     <br>
-                    Tags: {% for tag in page.tags %}<a href="/blog/tags/{{ tag }}" style="color: white;"><i class="fa fa-tag"></i> {{ tag }}</a> {% endfor %}
+                    Tags: {% for tag in page.tags %}<i class="fa fa-tag"></i> {{ tag }} {% endfor %}
                     <br>
                     {% assign minutes = content | number_of_words | divided_by: site.wpm %}
                     <i class="fa fa-clock-o"></i>&nbsp;{% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
