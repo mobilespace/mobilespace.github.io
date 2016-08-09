@@ -3066,7 +3066,7 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 1280px) {
     #header {
-        padding: 4em 4em 0.1em 4em;
+        padding: 5em 4em 0.1em 4em;
     }
     #header.alt {
         padding: 6em 4em 3em 4em;
@@ -3075,7 +3075,7 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 980px) {
     #header {
-        padding: 4em 3em 0.1em 3em;
+        padding: 5em 3em 0.1em 3em;
     }
     #header.alt {
         padding: 5em 3em 2em 3em;
@@ -3084,7 +3084,7 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 736px) {
     #header {
-        padding: 3em 2em 0.1em 2em;
+        padding: 5em 2em 0.1em 2em;
     }
     #header p {
         font-size: 1em;
@@ -3103,7 +3103,7 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 480px) {
     #header {
-        padding: 3em 1.5em 0.1em 1.5em;
+        padding: 5em 1.5em 0.1em 1.5em;
     }
     #header.alt {
         padding: 4em 1.5em 1em 1.5em;
@@ -3112,7 +3112,7 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 360px) {
     #header {
-        padding: 2.5em 1em 0.1em 1em;
+        padding: 5em 1em 0.1em 1em;
     }
     #header.alt {
         padding: 3.5em 1em 0.5em 1em;
