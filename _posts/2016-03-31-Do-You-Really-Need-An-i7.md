@@ -56,7 +56,7 @@ Time (s) | i5 CPU% | rpi CPU%
 9	|	21.1	|	95.4
 10	|	21.2	|	95.4
 
-![graph-i5-rpi](/img/posts/graph-i5-rpi.png "graph to show the difference better")
+![graph-i5-rpi](/images/posts/graph-i5-rpi.png "graph to show the difference better")
 
 ## NUC who?
 Intel *N*ext *U*nit of *C*omputing is a 64 bit motherboard + Processor kit. Along with it you will have to buy Ram and SSD. For anyone looking to upgrade their robot's cpu I suggest buying Intel NUC NUC5i7RYH.  
