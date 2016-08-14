@@ -1,5 +1,5 @@
 ---
-title: Realtime Path Planning Using Inverse Kinematics
-image: /images/research/people/person1.jpg
-description: (Lokesh)[https://www.facebook.com/lokesh.singh.9655] Student-designed-and-built autonomous robotic submarines must complete a difficult series of visual- and acoustic-based tasks in this popular international competition. These tasks simulate the work required of robotic subs in many facets of underwater activity.
+title: Research on Path Planning Techniques
+image: /images/research/pathplanning.png
+description: Given information of a target and obstacles we are trying to implement various path planning algorithms like grid-based navigation, A star algorithm, potential path planning for AUV and compare there efficiency under water. This project is in collaboration with Lokesh Singh, who is a Research Assistant at IIT Kanpur and hold expertise in the field of robotic path planning.
 ---
