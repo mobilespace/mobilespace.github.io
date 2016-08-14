@@ -1,5 +1,5 @@
 ---
-title: Automatics callibration of PID using Machine Learning
-image: /images/research/people/person2.jpg
-description: (Hitesh)[https://www.facebook.com/hjhitesh19] Student-designed-and-built autonomous robotic submarines must complete a difficult series of visual- and acoustic-based tasks in this popular international competition. These tasks simulate the work required of robotic subs in many facets of underwater activity.
+title: Inverse Kinematics using Machine Learning
+image: /images/research/ml.jpg
+description: Path planning gives us the trajectory of the most efficient path but to move on that path we have to fire up our actuators and accelerate in the right direction. This is done by Inverse Kinematics ie. mapping displacement to actuator voltages. AUV team in collaboration with Mtech. student Hitesh Jangid is trying to implement machine learning algorithms like SVM for automatically callibrating these mappings.
 ---
