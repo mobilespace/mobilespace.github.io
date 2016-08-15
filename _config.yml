@@ -6,7 +6,6 @@ github_username: AUV-IITK
 
 collections:
   vehicles :
-    output: true
   teams:
   subteam :
   competition :
