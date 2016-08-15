@@ -3,7 +3,7 @@ name: Varun
 date:       2016-03-27 17:00:00
 image: /images/vehicles/varun.jpg
 description: robotic submarines must complete a difficult series of visual- and acoustic-based tasks in this popular international competition. These tasks simulate the work required of robotic subs in many facets of underwater activity.
-link : /vehicles/varun.html
+link : /vehicles/varun.pdf
 layout : vehicle
 ---
 Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows adapted sir. Wrong widen drawn ample eat off doors money. Offending belonging promotion provision an be oh consulted ourselves it. Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary. 
