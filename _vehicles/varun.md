@@ -2,7 +2,7 @@
 name: Varun
 date:       2016-03-27 17:00:00
 image: /images/vehicles/varun.jpg
-description: robotic submarines must complete a difficult series of visual- and acoustic-based tasks in this popular international competition. These tasks simulate the work required of robotic subs in many facets of underwater activity.
+description: This vehicle is currently being developed and is now on it's verge of completion to participate in various AUV competitions. 
 link : /vehicles/varun.pdf
 layout : vehicle
 ---
