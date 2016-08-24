@@ -1,15 +1,8 @@
-[![Build Status](https://travis-ci.org/AUV-IITK/auv-iitk.github.io.svg?branch=master)](https://travis-ci.org/AUV-IITK/auv-iitk.github.io)
+# MobileSpace
 
-## StellarEnhanced jekyll template
+This website is made using [Jekyll 3.0](https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/) and hosted on [Github Pages](https://pages.github.com/).
 
-Jekyll blog based on [Stellar](https://html5up.net/stellar). Served at auv-iitk.github.io
-
-## Usage
-
-Fork the repo
-Rename to `username.github.io`
-Modify the _config file
-Replace all the posts and images with your data
+Website theme is [StellarEnhanced](https://github.com/auv-iitk/auv-iitk.github.io) a Jekyll blog based on [Stellar](https://html5up.net/stellar).
 
 ## Copyright and License
 

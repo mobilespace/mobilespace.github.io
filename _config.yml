@@ -1,8 +1,8 @@
 # Site settings
-title: AUV-IITK
-email: iitkauv@gmail.com
-copyright_name: AUV-IITK
-github_username: AUV-IITK
+title: MobileSpace
+email: helloomonte@gmail.com
+copyright_name: MobileSpace
+github_username: mobilespace
 
 collections:
   vehicles :
