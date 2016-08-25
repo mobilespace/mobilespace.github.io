@@ -174,6 +174,6 @@ $(function() {
     $(".typed").typed({
         strings: ["Weekly meetups to LEARN ^1000 and TEACH mobile development!"],
         startDelay: 1000,
-        typeSpeed: 1
+        typeSpeed: 30
     });
 });

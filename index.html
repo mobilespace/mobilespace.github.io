@@ -34,42 +34,42 @@ layout: default
             </section>
             <section id="second" class="main special">
                 <header class="major">
-                    <h2>Recent Milestones</h2>
-                </header>
-                {% for post in site.tags["milestone"] %}
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                <p>
-                <b>{{ post.title }}</b>
-                     on {{ post.date | date: "%B %-d, %Y" }}
-                </p>
-                </a>
-                {% endfor %}
-            </section>
-            <section id="third" class="main special">
-                <header class="major">
-                    <h2>AUV Competitions</h2>
+                    <h2>Why you?</h2>
                 </header>
                     {% for item in site.competition %}
                     <p style="clear: both;">
                     <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
                     <h3> {{ item.title }} </h3>
                     {{ item.description }}
-                    <a href="{{ item.link }}"><i>Read more...</i></a>
                     </p>
                     <br>
                     {% endfor %}
             </section>
+            <section id="third" class="main special">
+                <header class="major">
+                    <h2>Recent Meetups</h2>
+                </header>
+                {% for post in site.tags["milestone"] %}
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                <p><h2>{{ post.date | date: "%B %-d, %Y" }}</h2><b>{{ post.title }}</b>
+                </p>
+                <br /><br />
+                </a>
+                {% endfor %}
+            </section>
             <section id="fourth" class="main special">
                 <header class="major">
-                    <h2>Research Collaborations</h2>
+                    <h2>Community Members</h2>
                 </header>
-                    {% for item in site.research %}
-                    <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
-                    <h3> {{ item.title }} </h3>
-                    {{ item.description }}
-                    </p>
-                    <br>
-                    {% endfor %}
+                <div class="members">
+                  {% for item in site.research %}
+                  <a href="{{ item.link }}">
+                    <div class="image">
+                      <img src="{{ item.image }}" style= "height: 100px; width: 100px" alt="" />
+                      <center>{{ item.name }}</center>
+                    </div>
+                  </a>
+                  {% endfor %}
+                </div>
             </section>
         </div>

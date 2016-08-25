@@ -3008,6 +3008,66 @@ table.alt tbody tr td {
 }
 
 
+/* Community Members */
+
+.members {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: left;
+  -webkit-align-items: left;
+  -ms-align-items: left;
+  align-items: left;
+  margin: 0 0 2em 0;
+}
+
+.members .image {
+  display: inline-block;
+  margin-left: 4em;
+  padding: 0.65em;
+  align-items: center;
+}
+
+.members .image img {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 980px) {
+    .members {
+        -moz-flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+
+    .members .image {
+        -moz-flex: 0 1 auto;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        margin-left: 0;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .members .image {
+        padding: 0.35em;
+    }
+    .members .image img {
+        width: 12em;
+    }
+}
+
+.members .image {
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+
 /* Header */
 
 #header {
