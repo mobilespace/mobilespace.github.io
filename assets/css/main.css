@@ -2626,6 +2626,7 @@ header.major p,
     font-size: 1.25em;
     font-weight: bold;
     letter-spacing: -0.025em;
+    color: #ffda8e;
 }
 
 header.major.special {
@@ -3576,6 +3577,7 @@ body.is-loading #header.alt .logo {
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+    color: #ffda8e;
 }
 @keyframes blink{
     0% { opacity:1; }
