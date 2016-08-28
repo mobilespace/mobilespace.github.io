@@ -1,26 +1,25 @@
 ---
 layout: post
-title: "Using UIL Library with Image Getter to load HTML Images in a TextView"
-subtitle: ""
-date: 2016-06-03 01:20:00
-author: "Shikher Verma"
-header-img: "/images/posts/pic04.jpg"
-comments: true
-tags: [ CodeMonkey, milestone ]
+title: "Getting ready to launch MobileSpace"
+subtitle: "Me, Myself and I"
+date: 2016-08-27 19:50:00
+author: "Monte Thakkar"
+header-img: "/images/bg_image.jpg"
+comments: false
+tags: [ milestone ]
 ---
-*This blog post assumes that the reader has a clear understanding of Basic Android Development.*
+## I attended CodePath univ and it empowered me to do so much more in iOS.
 
-Presenting HTML data in an Android application is problematic. For instance, if you have a big junk of HTML, you may use a Web View; however it would become awfully slow for multiple independent pieces. As an alternative you can use a TextView. Unfortunately TextView doesn't support all the HTML tags, even some common ones. Luckily, there is a nice library called `HtmlTextView` which adds support for most of the common tags. Although loading images in TextView is a pain, the load time is large and it is always loaded in the memory. Thus if your images are large, you will soon get an OutOfMemory Error (OOM). For android this limit is around 20MB of Ram. Popular image loading and caching libraries mostly set an image directly to the ImageView. However, there is a workaround for using Universal Image Loader Library (UIL) for loading and caching images. It turns out you can give your custom implementation of ImageGetter (an interface) to load images.
+## This fall semester, I wanted to commit more time to develooing iOS app and working on my projects. One of the easiest ways I figured was to start a public meetup so that I would be pressured to show up each weekend.
 
-Following is an implementation of ImageGetter which fetches images using UIL:
-{% gist ShikherVerma/740ccdc1e4021aec78078df2857449b9 HuracanImageGetter.java %}
+## Also I got coffee with Kylie and she expressed interest in learning iOS edvelopemnet. Hence I figure there might be many more people out there that would be interested to learn as well.
 
-Now setting HTML to HtmlTextView (which is a descendant of TextView) with the new ImageGetter:
-{% gist ShikherVerma/740ccdc1e4021aec78078df2857449b9 SetHtmlToTextView.java %}
+## I want to give back. I enjoy teaching. I attended OS HAck and I taight a team of 4 how ot build a iOS app in 24 hrs. WE build Trump Or False and it was a lot of fun. At the end of it, the learnt how to build an iOS app.
 
-After this, you can also resize the image to fit into a screen size. Doing it after caching would be wrong because then each time
-image would be resized after loading from the cache. So resizing should be done before caching, and not in the ImageGetter implementation. This class would be later used in the `Application.java` file as shown later.
-{% gist ShikherVerma/740ccdc1e4021aec78078df2857449b9 HuracanBitmapProcessor.java %}
+## I want to start something and fail at it. Learn what is takes to build something and see the time commitment it takes to do it right.
 
-Setting the default preferences for universal image in the application. These are some of the default things that need to be done in order to tell the UIL to set preferences like using cache.
-{% gist ShikherVerma/740ccdc1e4021aec78078df2857449b9 HuracanApplication.java %}
+## Spent the last week setting up the website. Now that I have online presence, I can spread the work on the ground.
+
+## Need to do outreach in SFSU Classess and ask them to apply online.
+
+## Here we go. Even if nobody shows up, it will give me a reason to work on my projects every weekend just like a regular class on schedule.
