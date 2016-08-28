@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Details
-description: Ipsum dolor sit amet nullam
+description: More information regarding meetups
 ---
 <!-- Header -->
 <header id="header">
@@ -10,8 +10,7 @@ description: Ipsum dolor sit amet nullam
 </header>
 <div id="main">
     <section class="main">
-    {% assign sorted = (site.vehicles | sort: 'date') | reverse %}
-    {% for vehicle in sorted %}
+    {% for vehicle in site.vehicles %}
         <div class="spotlight">
             <div class="content">
                 <header class="major">
@@ -19,11 +18,8 @@ description: Ipsum dolor sit amet nullam
                 </header>
                 <p>{{ vehicle.description }}</p>
                 <br>
-                <ul class="actions">
-                    <li><a href="{{ vehicle.link }}" class="button">Learn More</a></li>
-                </ul>
             </div>
-            <span class="image"><img src="{{ vehicle.image }}" alt="{{ vehicle.name }}" /></span>
+            <span class="icon major {{ vehicle.iconstyle }} {{ vehicle.icon }}"></span>
         </div>
     {% endfor %}
     </section>
