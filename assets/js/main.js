@@ -172,7 +172,7 @@ jQuery(document).ready(function($) {
 // typing animation
 $(function() {
     $(".typed").typed({
-        strings: ["Weekly meetups to LEARN ^1000 and TEACH mobile development!"],
+        strings: ["Weekly meetups to LEARN ^1000 and TEACH mobile development."],
         startDelay: 1000,
         typeSpeed: 30
     });
