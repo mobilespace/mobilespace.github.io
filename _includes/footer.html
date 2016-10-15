@@ -1,12 +1,13 @@
 <!-- Footer -->
 <footer style="text-align: center">
     <ul style="display:inline-block;margin-top:1em;margin-left:-1.5em;margin-bottom:1em;overflow:hidden;list-style-type:none;">
+        {% if site.youtube_name %}
         <li style="float:left;">
-            <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
-                <span class="icon fa-rss alt">
+            <a href="https://www.youtube.com/channel/{{ site.youtube_name }}">
+                <span class="icon fa-youtube alt">
             </a>
         </li>
-        {% if site.github_username %}
+        {% endif %} {% if site.github_username %}
         <li style="float:left;">
             <a href="https://github.com/{{ site.github_username }}">
                 <span class="icon fa-github alt">
