@@ -3015,19 +3015,20 @@ table.alt tbody tr td {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  display: flex;
   -moz-align-items: left;
   -webkit-align-items: left;
   -ms-align-items: left;
-  align-items: left;
-  margin: 0 0 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.members:nth-child(5n) {
+  flex-break: after;
 }
 
 .members .image {
-  display: inline-block;
   margin-left: 4em;
-  padding: 0.65em;
-  align-items: center;
+  flex: 0 1 auto;
 }
 
 .members .image img {
@@ -3037,12 +3038,18 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 980px) {
     .members {
-        -moz-flex-direction: column-reverse;
-        -webkit-flex-direction: column-reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-        text-align: center;
-        align-items: center;
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      -moz-align-items: left;
+      -webkit-align-items: left;
+      -ms-align-items: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .members:nth-child(2n) {
+      flex-break: after;
     }
 
     .members .image {
@@ -3050,12 +3057,28 @@ table.alt tbody tr td {
         -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
         flex: 0 1 auto;
+        padding: 0.35em;
         margin-left: 0;
         margin-bottom: 2em;
     }
 }
 
 @media screen and (max-width: 736px) {
+    .members {
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      -moz-align-items: left;
+      -webkit-align-items: left;
+      -ms-align-items: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .members:nth-child(2n) {
+      flex-break: after;
+    }
+
     .members .image {
         padding: 0.35em;
     }
