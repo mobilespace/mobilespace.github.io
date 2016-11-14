@@ -2,7 +2,7 @@
 
 MobileSpace is a weekly meetup in San Francisco to enable developers to build their own mobile apps with an excellent in-person community to teach and help accelerate their projects to completion.
 
-Check out http://wwww.mobilespace.xyz
+Check out http://mobilespace.xyz/
 
 # Credits
 
