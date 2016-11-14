@@ -3027,7 +3027,8 @@ table.alt tbody tr td {
 }
 
 .members .image {
-  margin-left: 4em;
+  padding-left: 2em;
+  padding-bottom: 2em;
   flex: 0 1 auto;
 }
 
@@ -3044,8 +3045,8 @@ table.alt tbody tr td {
       -moz-align-items: left;
       -webkit-align-items: left;
       -ms-align-items: left;
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .members:nth-child(2n) {
@@ -3057,9 +3058,8 @@ table.alt tbody tr td {
         -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
         flex: 0 1 auto;
-        padding: 0.35em;
-        margin-left: 0;
-        margin-bottom: 2em;
+        padding-left: 2em;
+        padding-bottom: 2em;
     }
 }
 
@@ -3071,8 +3071,8 @@ table.alt tbody tr td {
       -moz-align-items: left;
       -webkit-align-items: left;
       -ms-align-items: left;
-        display: flex;
-        flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .members:nth-child(2n) {
@@ -3080,15 +3080,16 @@ table.alt tbody tr td {
     }
 
     .members .image {
-        padding: 0.35em;
+      padding-left: 2em;
+      padding-bottom: 2em;
     }
     .members .image img {
-        width: 12em;
+      width: 12em;
     }
 }
 
 .members .image {
-    border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 
