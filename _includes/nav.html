@@ -16,9 +16,6 @@
         Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav actions">
-              <!-- <li>
-                <a href="/applications/closed.html" style="color: #ffda8e" target="_blank">Apply Now</a>
-              </li> -->
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% for page in site.pages %} {% if page.title %} {% if page.url != '/404.html' %} {% if page.title != site.index_title %} {% if page.url contains "/page" or page.url contains "/tags/" or page.url contains "/search" %} {% else %}
