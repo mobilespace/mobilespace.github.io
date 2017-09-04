@@ -4,13 +4,32 @@ MobileSpace is a weekly meetup in San Francisco to enable developers to build th
 
 Check out http://mobilespace.xyz/
 
+# Local Development
+
+## Setup
+
+This is a [Jekyll site](https://jekyllrb.com/) powered by [Github Pages](https://pages.github.com/).
+
+First things first, make sure you are added as a contributor to this repo. Reach out to [Monte Thakkar](https://github.com/monte9/) if you need access.
+
+Also make sure you have added the ssh key to your local keychain. This will allow you to push changes to the repo directly from your terminal. To setup multiple SSH keys, follow [this guide](https://gist.github.com/jexchan/2351996). Also [this](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) and [this](https://help.github.com/articles/reviewing-your-ssh-keys/) are useful Github guides to setting up SSH on your computer.
+
+## Running it
+
+- `bundle exec jekyll serve` to start the local dev server
+- http://127.0.0.1:4444/ to access the website
+
+## Deploy
+
+Since this website is hosted using Github Pages, the changes get deployed automatically when you commit and push to Github. Also check the last commit status to see if there was any error or if it deployed successfully.
+
 # Credits
 
 Website theme is [StellarEnhanced](https://github.com/auv-iitk/auv-iitk.github.io) a Jekyll blog based on [Stellar](https://html5up.net/stellar).
 
 # License
 
-Copyright [2016] [MobileSpace]
+Copyright [2017] [MobileSpace]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

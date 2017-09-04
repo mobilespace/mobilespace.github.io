@@ -13,14 +13,15 @@ layout: default
                         <header class="major">
                             <h2>What is MobileSpace?</h2>
                         </header>
-                        <p><strong>MobileSpace</strong> is a weekly meetup in San Francisco to enable developers to build their own mobile apps with an excellent in-person community to teach and help accelerate your project to completion.</p>
+                        <p><strong>MobileSpace</strong> is a weekly meetup in San Francisco to enable developers to build and publish their own mobile apps with
+                            an excellent in-person community to teach and help accelerate your project to completion.</p>
                     </div>
                     <span class="image"><img src="images/section1.gif" alt="what is mobilespace" /></span>
                 </div>
             </section>
             <section id="subteams" class="main special">
                 <header class="major">
-                    <h2>How to?</h2>
+                    <h2>How?</h2>
                 </header>
                 <ul class="features">
                     {% for item in site.subteam %}
@@ -45,11 +46,8 @@ layout: default
                     <br /><br /><br />
                     {% endfor %}
                     Join the community today and let MobileSpace help you become a successful software engineer. <br /><br />
-                    <!-- <ul class="actions">
-                        <li><a href="/applications/closed.html" class="button big special" target="_blank">Apply Now</a></li>
-                    </ul> -->
                     <ul class="actions">
-                        <li><a href="/applications/closed.html" class="button big special">Application Status</a></li>
+                        <li><a href="/applications/on-demand.html" class="button big special">Apply Now!</a></li>
                     </ul>
             </section>
             <section id="third" class="main special">
@@ -57,8 +55,11 @@ layout: default
                     <h2>Community Updates</h2>
                 </header>
                 {% for post in site.tags["milestone"] %}
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                <p><h2>{{ post.date | date: "%B %-d, %Y" }}</h2><b>{{ post.title }}</b>
+                <p>
+                    <h2>{{ post.date | date: "%B %-d, %Y" }}</h2><b>
+                </p>
+                <p><a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: underline">
+                {{ post.title }}</b>
                 </p>
                 <br /><br />
                 </a>
@@ -73,7 +74,7 @@ layout: default
                   <a href="{{ item.link }}" target="_blank">
                     <div class="image">
                       <img src="{{ item.image }}" style= "height: 100px; width: 100px" alt="" />
-                      <center>{{ item.name }}</center>
+                      <center style="text-decoration: underline">{{ item.name }}</center>
                     </div>
                   </a>
                   {% endfor %}
