@@ -12,6 +12,8 @@ This is a [Jekyll site](https://jekyllrb.com/) powered by [Github Pages](https:/
 
 First things first, make sure you are added as a contributor to this repo. Reach out to [Monte Thakkar](https://github.com/monte9/) if you need access.
 
+Try `ssh-add ~/.ssh/id_rsa` to authenticate the added SSH key on your local machine.
+
 Also make sure you have added the ssh key to your local keychain. This will allow you to push changes to the repo directly from your terminal. To setup multiple SSH keys, follow [this guide](https://gist.github.com/jexchan/2351996). Also [this](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) and [this](https://help.github.com/articles/reviewing-your-ssh-keys/) are useful Github guides to setting up SSH on your computer.
 
 ## Running it
