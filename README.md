@@ -1,8 +1,21 @@
-# MobileSpace
+# MobileSpace - v1 website 
 
 MobileSpace is a weekly meetup in San Francisco to enable developers to build their own mobile apps with an excellent in-person community to teach and help accelerate their projects to completion.
 
-Check out http://mobilespace.xyz/
+This was `v1` for the MobileSpace website. You can check it out live [here](http://mobilespace.github.io). Also I blogged about my experience starting MobileSpace and you can ready it [here](https://medium.freecodecamp.org/mobilespace-a-passion-story-9dbc8afd5221).
+
+Since then, as part of MobileSpace Season 2 a new rewamped website was designed and built by Monte Thakkar. You can check it out live [here](http://mobilespace.xyz).
+
+Below are the screen captures of **MobileSpace.xyz v1**:
+
+![MobileSpace v1- Home Page](https://i.imgur.com/YuSBnAa.jpg)
+![](https://i.imgur.com/lZOmcbi.png)
+![](https://i.imgur.com/2C9YQ3f.png)
+![](https://i.imgur.com/GPsBHcI.png)
+
+### Links: 
+- [Github](https://github.com/mobilespace?tab=repositories)
+- [Youtube](https://www.youtube.com/channel/UC7XL46a5L85tcFR6Zf7ktBg)
 
 # Local Development
 
